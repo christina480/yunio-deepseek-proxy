@@ -1,9 +1,9 @@
-# Yunio DeepSeek Proxy
+# yunio-deepseek-proxy
 
-A simple Vercel serverless proxy for the DeepSeek API.
+Vercel Serverless proxy for DeepSeek API — used by the Yunio Financial Dashboard.
 
-## Setup
+## Endpoint
 
-1. Deploy to Vercel
-2. Add environment variable: `DEEPSEEK_API_KEY`
-3. Use endpoint: `https://your-vercel-url.vercel.app/api/proxy`
+`POST /api/proxy`
+
+Forwards requests to DeepSeek API using the server-side `DEEPSEEK_API_KEY` environment variable.
